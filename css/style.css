@@ -37,7 +37,7 @@ Author: themehippo.com
 
 body {
     font-family : 'Hind', sans-serif;
-    font-size   : 15px;
+    font-size   : 200%;
     line-height : 1.8em;
     color       : #989898;
     font-weight : 300;
@@ -60,16 +60,19 @@ h1 {
     }
 
 h2 {
-    font-size   : 18px;
+    font-size   : 24px;
     line-height : 1.8em;
     font-weight : 700;
     }
 
 h3 {
-    font-size   : 13px;
+    font-size   : 18px;
     line-height : 1.8em;
     font-weight : 700;
     }
+@media (max-width:768px){
+    
+}
 
 h4 {
     font-size   : 15px;
@@ -215,7 +218,7 @@ button:focus,
     }
 
 .section-title h2 {
-    font-size      : 14px;
+    font-size      : 18px;
     margin-bottom  : 5px;
     color          : #bbbbbb;
     text-transform : uppercase;
@@ -226,7 +229,7 @@ button:focus,
         text-align: left;
         }
     .section-title h2{
-        font-size: 18px;
+        font-size: 24px;
         margin-bottom: 20px;
         }
     }
@@ -249,6 +252,11 @@ button:focus,
 .header .name-wrapper {
     margin-bottom : 30px;
     }
+@media (max-width:768px){
+    .header .name-wrapper h1{
+    text-align: center;
+}
+}
 
 .header .name-wrapper h1 {
     text-transform : uppercase;
@@ -266,14 +274,14 @@ button:focus,
     }
 
 .header .personal-details strong {
-    font-size   : 13px;
+    font-size   : 16px;
     color       : #444444;
     display     : block;
     line-height : 1;
     }
 
 .header .personal-details small {
-    font-size : 12px;
+    font-size : 16px;
     }
 
 .header .personal-details span {
@@ -288,6 +296,16 @@ button:focus,
     .header .profile-img {
         margin: 0 0 30px;
         }
+    .header .personal-details strong {
+    font-size   : 16px;
+    color       : #444444;
+    display     : block;
+    line-height : 1;
+    }
+    .header .personal-details small {
+    font-size : 16px;
+    }
+
     }
 
 @media (max-width : 600px){
@@ -314,11 +332,11 @@ button:focus,
 
 .social-icon li a {
     display       : block;
-    font-size     : 12px;
+    font-size     : 32px;
     color         : #333333;
-    width         : 34px;
-    height        : 34px;
-    line-height   : 33px;
+    width         : 50px;
+    height        : 50px;
+    line-height   : 50px;
     text-align    : center;
     border-radius : 2px;
     border        : 2px solid #eeeeee;
@@ -359,6 +377,7 @@ button:focus,
     }
 
 .expertise-item h3 {
+    font-size: 18px;
     text-transform : uppercase;
     margin-bottom  : 5px;
     }
@@ -372,7 +391,7 @@ button:focus,
     }
 
 .progress-item .progress-title {
-    font-size     : 12px;
+    font-size     : 18px;
     font-weight   : 400;
     display       : inline-block;
     margin-bottom : 5px;
@@ -392,7 +411,7 @@ button:focus,
     }
 
 .progress-item .progress-percent {
-    font-size        : 10px;
+    font-size        : 16px;
     background-color : #313131;
     position         : absolute;
     top              : 5px;
